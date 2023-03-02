@@ -1,6 +1,6 @@
 import { HEROES } from './../mock-heroes';
 import { Hero } from './../models/hero.model';
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-heroes',
