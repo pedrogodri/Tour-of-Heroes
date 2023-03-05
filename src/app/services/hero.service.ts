@@ -10,6 +10,7 @@ export class HeroService {
 
   getHeroes(): Observable<Hero[]> {
     const heroes = of(HEROES);
+
     return heroes;
   }
 }
